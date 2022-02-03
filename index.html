@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   
+
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <div class="container">
         <div class="navbar">
@@ -22,16 +24,18 @@
             <div class="left-col">
                 <h1>LOVE YOU <br> FOR <br> INFINITY</h1>
             </div>
-            <div class="right-col"></div>
-              <p>Click Here To Listen</p>
-              <img src="./Picsart_22-02-03_21-04-03-513.png" id="icon">
+            <div class="right-col">
+                <p>Click Here To Listen</p>
+                <img src="./Picsart_22-02-03_21-04-03-513.png" id="icon">
             </div>
 
-        
-        
-          </div>
+        </div>
 
-    </div> 
+
+
+    </div>
+
+    </div>
 
     <audio id="mySong">
 
@@ -43,14 +47,14 @@
         var mySong = document.getElementById("mySong");
         var icon = document.getElementById("icon");
 
-        icon.onclick = function(){
-            if(mySong.paused){
+        icon.onclick = function () {
+            if (mySong.paused) {
                 mySong.play();
                 icon.src = "./Picsart_22-02-03_21-05-39-117.png";
-            }else{
+            } else {
                 mySong.pause();
-                icon.src ="./Picsart_22-02-03_21-04-03-513.png" ;
-            
+                icon.src = "./Picsart_22-02-03_21-04-03-513.png";
+
             }
         }
 
@@ -58,4 +62,5 @@
     </script>
 
 </body>
+
 </html>
